@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Prácticando Commints</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+ 
+
+
+</head>
+
+
+<body>
+
+      <!--Inicia el Encabezado de la página-->
+    <!--El contenido descrito es meramente informativo para que como responsable realice la modificación-->
+    <div id="encabezado"> <h1 class="centrado">REALIZACIÓN DE COMMITS.</h1> </div>
+    <!--Termina el Encabezado de la página-->
+
+
+<!--Apartado que genera el menu-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <div id="menu">
+       
+        <ul class="nav">
+            <li><button onclick="$('#docentes').hide();$('#estudiantes').hide();$('#ti').hide();$('#tida').hide();$('#inicio').show();">Inicio</button></li>
+            <li> <button onclick="$('#inicio').hide();$('#docentes').hide();$('#ti').hide();$('#tida').hide();$('#estudiantes').show();">Estudiantes</button></li>
+            <li> <button onclick="$('#estudiantes').hide();$('#inicio').hide();$('#ti').hide();$('#tida').hide();$('#docentes').show();">Docentes</button></li>
+            <li> <button onclick="$('#inicio').hide();$('#estudiantes').hide();$('#ti').hide();$('#tida').hide();$('#docentes').show();">Materias</button>
+                <ul>
+                    <li><button onclick="$('#inicio').hide();$('#estudiantes').hide();$('#docentes').hide();$('#tida').hide();$('#ti').show();">Linea de Investigación Tecnologías de la Información</button></li>
+                    <li><button onclick="$('#inicio').hide();$('#estudiantes').hide();$('#docentes').hide();$('#ti').hide();$('#tida').show();">Linea de Investigación Tecnologías para el Desarrollo de Aplicaciones Móviles</button></li>
+                    
+                </ul>
+            </li>
+
+            
+            
+           
+           <!-- <li><a href="javascript:MostrarOcultar('estudiantes');">Estudiantes</a></li>-->
+               
+            </li>
+            
+        </ul>
+    </div>
+    <!--Termina el cógigo del Menú de opciones-->
+
+    
+
+    <!--Inicia el Contenido de la página-->
+    <div id="cuerpo_pagina"> 
+     
+<!--Inicia el Contenido de la Tabla-->
+<div id="inicio">
+   <h3> GitHub es una forja para alojar proyectos utilizando el sistema de control de versiones Git. Se utiliza principalmente para la creación de código fuente de programas de ordenador. El software que opera GitHub fue escrito en Ruby on Rails. Desde enero de 2010, GitHub opera bajo el nombre de GitHub, Inc.</h3>
+</div>
+  <!--Termina el Contenido de la Tabla-->
+
+         <!--Inicia el Contenido de la Tabla-->
+        <div id="estudiantes" style="display: none;">
+            <h1>Listado de Estudiantes de MTI</h1>
+
+            <table  id="est">
+            <tr>
+              <td><strong>Apellido Paterno</strong></td>
+              <td><strong>Apellido Materno</strong></td>
+              <td><strong>Apellido Nombre</strong></td>
+              <td><strong>Calidad del Alumno</strong</td>
+              
+            </tr>
+            
+            <tr>
+              <td>Canales</td>
+              <td>Castillo</td>
+              <td>Abdón</td>
+              <td>Vigente</td>
+              
+            </tr>
+            
+            <tr>
+                <td>Cerecedo</td>
+                <td>Pacheco</td>
+                <td>Eduardo</td>
+                <td>Vigente</td>
+            </tr>
+            
+            <tr>
+                <td>Cortés</td>
+                <td>Velázquez</td>
+                <td>Farid</td>
+                <td>Vigente</td>
+            </tr>
+
+            <tr>
+              <td>Cruz</td>
+              <td>Salas</td>
+              <td>Adriana</td>
+              <td>Vigente</td>
+            </tr>
+
+            <tr>
+                <td>Hernández</td>
+                <td>Acosta</td>
+                <td>Miguek Angel</td>
+                <td>Vigente</td>
+              </tr>
+
+              <tr>
+                <td>Hernández</td>
+                <td>Lazcano</td>
+                <td>Ana Karen</td>
+                <td>Vigente</td>
+              </tr>
+
+              <tr>
+                <td>Lazcano</td>
+                <td>Quiroga</td>
+                <td>Blanca Estela</td>
+                <td>Vigente</td>
+              </tr>
+              <tr>
+                <td>Hernández</td>
+                <td>Bautista</td>
+                <td>Enrique</td>
+                <td>Vigente</td>
+              </tr>
+
+              <tr>
+                <td>Mejía</td>
+                <td>Marcial</td>
+                <td>Matilde</td>
+                <td>Vigente</td>
+              </tr>
+
+              <tr>
+                <td>Ortíz</td>
+                <td>Lopez</td>
+                <td>Isaias</td>
+                <td>Vigente</td>
+              </tr>
+
+
+            </table>
+
+        </div>
+          <!--Termina el Contenido de la Tabla-->
+   
+           <!--Inicia el Contenido de la Tabla-->
+        <div id="docentes" style="display: none;" >
+            <h1>Listado de Docentes de MTI</h1>
+
+            <table  id="est">
+            <tr>
+              <td><strong>Apellido Paterno</strong></td>
+              <td><strong>Apellido Materno</strong></td>
+              <td><strong>Apellido Nombre</strong></td>
+              <td><strong>Apellido Número de Control</strong></td>
+              <td><strong>Calidad del Alumno</strong</td>
+              
+            </tr>
+            
+            <tr>
+              <td>Canales</td>
+              <td>Castillo</td>
+              <td>Abdón</td>
+              <td>M19315003</td>
+              <td>Vigente</td>
+              
+            </tr>
+            
+            
+            
+            
+            </table>
+        </div>
+ <!--Inicia el Contenido de la Tabla-->
+
+
+ <div id="ti" style="display: none;" >
+    <h1>Listado de Materias de la Línea de Investigación de Tecnologías de la Información</h1>
+
+    <table  id="est">
+    <tr>
+      <td><strong>Nombre de la materia</strong></td>
+      <td><strong>Clave</strong></td>
+      <td><strong>Semestre</strong></td>
+      <td><strong>Plan de estudios</strong></td>
+      <td><strong>Créditos de la materia</strong</td>
+      
+    </tr>
+    
+    <tr>
+      <td>Internet de las cosas</td>
+      <td>MPTIN0201</td>
+      <td>2</td>
+      <td>MPTIN-2012-02</td>
+      <td>6</td>
+      
+    </tr>
+    
+    <tr>
+        <td>Inteligencia Artificial</td>
+        <td>MPTIN0202</td>
+        <td>2</td>
+        <td>MPTIN-2012-02</td>
+        <td>6</td>
+        
+      </tr>
+    
+      <tr>
+        <td>Computo en la nube</td>
+        <td>MPTIN0203</td>
+        <td>3</td>
+        <td>MPTIN-2012-02</td>
+        <td>6</td>
+        
+      </tr>
+      <tr>
+        <td>Ciberceguridad</td>
+        <td>MPTIN0204</td>
+        <td>3</td>
+        <td>MPTIN-2012-02</td>
+        <td>6</td>
+        
+      </tr>
+
+
+    </table>
+
+
+        </div>
+          <!--Termina el Contenido de la Tabla-->
+    
+<!--Inicia el Contenido de la Tabla-->
+<div id="tida" style="display: none;">
+    <h1>Listado de Materias de la Línea de Investigación de Tecnologías para el desarrollo de aplicaciones moviles</h1>
+
+    <table  id="est">
+    <tr>
+      <td><strong>Nombre de la materia</strong></td>
+      <td><strong>Clave</strong></td>
+      <td><strong>Semestre</strong></td>
+      <td><strong>Plan de estudios</strong></td>
+      <td><strong>Créditos de la materia</strong</td>
+      
+    </tr>
+    
+    <tr>
+      <td>Maquetación de aplicaciones móviles</td>
+      <td>MPTIN0205</td>
+      <td>2</td>
+      <td>MPTIN-2012-02</td>
+      <td>6</td>
+      
+    </tr>
+    
+    <tr>
+        <td>Calidad de Software</td>
+        <td>MPTIN0206</td>
+        <td>2</td>
+        <td>MPTIN-2012-02</td>
+        <td>6</td>
+        
+      </tr>
+    
+      <tr>
+        <td>Calidad de software</td>
+        <td>MPTIN0207</td>
+        <td>3</td>
+        <td>MPTIN-2012-02</td>
+        <td>6</td>
+        
+      </tr>
+      <tr>
+        <td>Diseño y aplicación de videojuegos</td>
+        <td>MPTIN0204</td>
+        <td>3</td>
+        <td>MPTIN-2012-02</td>
+        <td>6</td>
+        
+      </tr>
+
+
+    </table>
+
+        </div>
+          <!--Termina el Contenido de la Tabla-->
+
+
+        </div>
+
+    
+    <!--Termina el Contenido de la página-->
+
+    <!--Inicia el Pie de la página-->
+    <div id="footer"> <h5 class="dirección">Av. Tecnológico No. 80, Col. 5 de Octubre Huauchinango, Puebla. C.P. 73173 Teléfono: (776)7625250, Instituto Tecnológico Superior de Huauchinango © 2019. || CMV || Algunos Derechos</h5></div>
+    <!--Termina el Pie de la página-->
+
+
+
+</body>
+</html>
