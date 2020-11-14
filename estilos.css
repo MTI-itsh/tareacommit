@@ -11,14 +11,14 @@ div#encabezadosss{
   
    * html body{
     overflow:hidden;
-    background-color: #434343;
+    background-color: #6d2b3f;
    } 
   
  #encabezado{
 width:auto;
 position:center;
-color: white;
-background-color: darkslategrey;
+color: rgb(17, 17, 17);
+background-color: rgb(223, 138, 28);
 }
 
 .centrado{text-align:center;border:1px dotted #000; padding:8px;}
@@ -184,8 +184,8 @@ div#footer{
     height:auto;
     width:100%; float:left; 
 position:center;
-color: white;
-background-color: darkslategrey;
+color: rgb(17, 17, 17);
+background-color: rgb(233, 141, 37);
    }
 /* Termina el Css del Píe de Página*/
 
